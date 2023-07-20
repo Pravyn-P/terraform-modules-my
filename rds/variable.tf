@@ -34,9 +34,9 @@ variable "vpc_security_group_ids" {
     type = list
 }
 
-variable "secret_name" {
+# variable "secret_name" {
 
-}
+# }
 
 variable "tags" {
   
@@ -44,4 +44,8 @@ variable "tags" {
 
 variable "rds_tags" {
   default = {}
+}
+
+variable "rds_secret_arn" {
+
 }
